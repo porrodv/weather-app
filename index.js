@@ -40,6 +40,7 @@ function showInfo() {
         return;
       }
       error404.style.display = "none";
+      searchInput.blur();
 
       const image = document.querySelector(".weather img");
       const city = document.querySelector(".weather .city");

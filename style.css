@@ -45,7 +45,7 @@ body {
   padding: 4px;
   padding-left: 10px;
   border-radius: 1rem;
-  width: 79%;
+  width: 79%; 
 }
 .search button {
   font-size: 1.3rem;
@@ -72,6 +72,8 @@ body {
 }
 .weather .temperature{
   font-size: 6rem;
+  align-content: center;
+  margin-right: 15px;
 }
 .temperature span {
   font-size: 2rem;
@@ -92,10 +94,10 @@ img {
   margin: 0.8rem 0px;
 }
 .weather-details {
-  padding: 5px;
   padding-top: 10px;
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
+  gap: 5px;
 }
 .weather-details div {
   padding: 5px;
@@ -106,7 +108,7 @@ img {
 }
 .weather-details span,
 .weather-details i {
-  font-size: 1.4rem;
+  font-size: 1.32rem;
 }
 .wind span{
   display: flex;
