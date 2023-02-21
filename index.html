@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Weather App</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="search">
+        <i class="fa-solid fa-location-dot"></i>
+        <input type="text" placeholder="Busca una ciudad" id="searchInput"/>
+        <button class="fa-solid fa-magnifying-glass"></button>
+      </div>
+
+      <div class="error-404">
+        <h1>¡Ocurrió un error!</h1>
+        <p>prueba con otra ciudad</p>
+        <img src="">
+      </div>
+
+      <div class="weather-box">
+        <div class="weather">
+          <p class="temperature"></p>
+          <h1 class="city"></h1>
+          <p class="description"></p>
+          <img src="" />
+        </div>
+
+        <div class="weather-details">
+          <div class="humidity">
+            <i class="fa-solid fa-water"></i>
+            <span></span>
+          </div>
+          <div class="wind">
+            <i class="fa-solid fa-wind"></i>
+            <span></span>
+          </div>
+          <div class="clouds">
+            <i class="fa-solid fa-cloud"></i>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Fontawesome icons -->
+    <script
+      src="https://kit.fontawesome.com/7c8801c017.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./index.js" defer></script>
+  </body>
+</html>

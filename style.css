@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: radial-gradient(circle at 15.44% 15.44%, #eefeff 0, #d1eefe 25%, #b2ddf7 50%, #93ccf1 75%, #75bceb 100%);
+}
+.error-404{
+  display: none;
+  margin-top: 25px;
+  text-align: center;
+}
+.error-404 h1{
+  color: rgb(214, 24, 24);
+}
+.error-404 p{
+  color: rgb(236, 78, 78);
+}
+.container {
+  background-color: #efefef;
+  width: 350px;
+  overflow: hidden;
+  font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
+  padding: 20px;
+  border-radius: 1rem;
+  box-shadow: 0px 2px 14px 0px rgba(0, 0, 0, 0.63);
+  -webkit-box-shadow: 0px 2px 14px 0px rgba(0, 0, 0, 0.63);
+  -moz-box-shadow: 0px 2px 14px 0px rgba(0, 0, 0, 0.63);
+}
+.container h1 {
+  font-size: 2rem;
+}
+.search input {
+  background-color: #efefef;
+  font-size: 1.5rem;
+  padding: 4px;
+  padding-left: 10px;
+  border-radius: 1rem;
+  width: 79%;
+}
+.search button {
+  font-size: 1.3rem;
+  background-color: #dae3e7;
+  border-radius: 20px;
+  padding: 7px;
+  cursor: pointer;
+}
+.search button:hover {
+  background-color: #c1cfd7;
+  transition: 0.2s;
+}
+.weather-box {
+  display: none;
+}
+
+.weather-box .weather {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  padding: 10px;
+  margin: 0 auto;
+}
+.weather .temperature{
+  font-size: 6rem;
+}
+.temperature span {
+  font-size: 2rem;
+  position: absolute;
+  padding-top: 15px;
+}
+.description{
+  text-transform: capitalize;
+}
+.temperature,
+.city{
+  padding: 0.8rem 0px;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  margin: 0.8rem 0px;
+}
+.weather-details {
+  padding: 5px;
+  padding-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+.weather-details div {
+  padding: 5px;
+  gap: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.weather-details span,
+.weather-details i {
+  font-size: 1.4rem;
+}
+.wind span{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+}
+.wind span h5{
+  font-weight: normal;
+}
+
+
